@@ -1,0 +1,42 @@
+```json
+{
+  "chain_name": "VelocityX Speed",
+  "chain_id": 11234,
+  "symbol": "VELX",
+  "decimals": 18,
+  "programming_language": "Go",
+  
+  "supply": {
+    "genesis_supply": 20000000,
+    "max_supply": 100000000,
+    "circulating_supply": 20000000
+  },
+  
+  "block_details": {
+    "block_time": 5,
+    "block_reward": 50,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 50
+  },
+  
+  "consensus": {
+    "type": "Turbo Proof of Stake",
+    "validators": 21,
+    "minimum_stake": 100000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2026-02-22",
+    "rpc_url": "https://velocityx.testnet.canopy.network",
+    "explorer_url": "https://explorer.velocityx.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "Ultra-high-speed micropayment network",
+    "category": "Payments"
+  }
+}
